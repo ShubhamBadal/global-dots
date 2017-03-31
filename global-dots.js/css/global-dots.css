@@ -1,0 +1,50 @@
+html, body {
+      line-height: 1.4;
+      height: 100%;
+      font-family: "Open Sans", Arial, sans-serif;
+      font-weight: 400;
+      color: #232323;
+      font-size: 11pt;
+      background: none;
+}
+
+html {
+      background: url(blue-gradient.png) no-repeat center center fixed;
+      background-size: cover;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+}
+
+#canvas-anim {
+      display: none;
+      border: 0;
+      position: absolute;
+      bottom: 0;
+}
+
+#toggle-background {
+      display: none;
+      position: fixed;
+      right: 20px;
+      bottom: 75px;
+      background: none;
+      color: #fff;
+}
+
+@media screen and (min-width: 481px) {
+
+      #canvas-anim {
+            display: block;
+            position: fixed;
+            left: 0px;
+            right: 0;
+            bottom: 55px;
+            width: 100%;
+      }
+
+      #toggle-background {
+            display: block;
+      }
+
+}
